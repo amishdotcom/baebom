@@ -1,0 +1,10 @@
+<div class="lyrics-item-gird des-inside otr col-3">
+	<a href="{$top[row].view_url}" title="{$top[row].title|stripslashes} - {$top[row].artist|stripslashes} lyrics" class="thumb _trackLink">
+		<img width="200" src="{$top[row].cover|replace:'60x60':'200x200'}" alt="Album {$top[row].title|stripslashes} - {$top[row].artist|stripslashes}" class="img-responsive" />
+	</a>
+	<div class="des">
+		<h3 class="title-item txt-primary ellipsis"><a href="{$top[row].view_url}" title="{$top[row].title|stripslashes} - {$top[row].artist|stripslashes} lyrics" class="_trackLink" tracking="_frombox=home_hotalbum">{$top[row].title|stripslashes}</a></h3>
+		<div class="inblock ellipsis">
+			<h4 class="title-sd-item txt-info ellipsis"><a href="{$top[row].search_by_artist}" title="Nghệ sĩ {$top[row].artist|stripslashes}">{$top[row].artist|stripslashes}</a></h4> </div>
+	</div> <span class="item-mask"></span>
+</div>

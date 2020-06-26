@@ -1,0 +1,13 @@
+RewriteEngine on
+
+#Force www on baebom.com:
+RewriteCond %{HTTP_HOST} ^baebom.com [NC]
+RewriteRule ^(.*)$ https://www.baebom.com/$1 [L,R=301,NC]
+
+RewriteRule ^lyrics/([^/]*)/([^/]*)-([^/]*).html(/?)+$ ?do=view&hash=$3 [L]
+
+RewriteRule ^download/([^/]*)/([^/]*)(/?)+$ download.php?type=$1&hash=$2 [L]
+
+RewriteRule ^search.html(/?)+$ ?do=search&%{QUERY_STRING} [L]
+
+RewriteRule ^add(/?)+$ ?do=add&%{QUERY_STRING} [L]

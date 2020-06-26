@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* A Cybertronics Property(Programmed by Amish Dotcom) */
+
+/* Dropdown Menu Fix */
+.dropdown-menu{min-width:1rem}
+.navbar-nav .dropdown-menu{float:left}
+/*----*/
+.page_main_heading{color:#C0C0C0}
+.track_name{font-size:2.4em;font-weight:bolder;color:red;border:0px}
+@media only screen and (max-width: 809px){.page_main_heading,.track_name{font-size:2em}}
+@media only screen and (max-width: 649px){.page_main_heading,.track_name{font-size:1.6em}}
+@media only screen and (max-width: 300px){.page_main_heading,.track_name{font-size:1.2em}}
+
+.atng{border:0px}
+
+table{margin-left:2%;width:70%;font-size:0.75rem;line-height:160%;font-family:Verdana,Arial,sans-serif}
+td,th{border:1px solid #dddddd;text-align:left;padding:2px;display:inline-block}
+@media only screen and (max-width: 1100px){table{width:75%}}
+@media only screen and (max-width: 1000px){table{width:80%}}
+@media only screen and (max-width: 800px){table{width:90%}}
+@media only screen and (max-width: 700px){table{width:98%}}
+@media only screen and (max-width: 500px){table{font-size:0.67rem;line-height:140%}}
+@media only screen and (max-width: 350px){table{font-size:0.6rem;line-height:130%}}
+@media only screen and (max-width: 320px){table{font-size:0.55rem;line-height:120%}}
+
+.taie:link{color:black;text-decoration:none}
+.taie:visited{color:green;text-decoration:none}
+.taie:hover{color:hotpink;text-decoration:none}
+.taie:active{color:blue;text-decoration:none}
+
+.music_head,.lyrics_head,.artist_head,.album_head,.duration_head,.iswc_head,.isrc_head,.upc_head,.rec_date_head,.producer_head,.rec_studio_head,.rec_by_head,.arr_mgr_head,.instruments_head,.programmers_head,.dubb_engg_head,.mix_and_mas_head,.music_assis_head,.video_dir_head,.add_info_head{font-weight:bold;vertical-align:top;border:0px}
+.music_content,.lyricist_content,.artist_content,.album_content,.duration_content,.iswc_content,.isrc_content,.upc_content,.rec_date_content,.producer_content,.rec_studio_content,.rec_by_content,.arr_mgr_content,.instruments_content,.programmers_content,.dubb_engg_content,.mix_and_mas_content,.music_assis_content,.video_dir_content,.add_info_content{border:0px}
+.creators_head{font-weight:bold;border:1px solid #dddddd;width:25vw}
+.creators_content{border:1px solid #dddddd;width:25vw}
+.creator_id_head{font-weight:bold;border:1px solid #dddddd;width:12vw}
+.creator_id_content{border:1px solid #dddddd;width:12vw}
+.role_head{font-weight:bold;border:1px solid #dddddd;width:5vw}
+.role_content{border:1px solid #dddddd;width:5vw}
+
+@media only screen and (max-width: 850px){.creators_head,.creators_content{width:30vw}.creator_id_head,.creator_id_content{width:16vw}.role_head,.role_content{width:8vw}}
+@media only screen and (max-width: 700px){.creators_head,.creators_content{width:40vw}.creator_id_head,.creator_id_content{width:19vw}.role_head,.role_content{width:8vw}}
+@media only screen and (max-width: 560px){.creators_head,.creators_content{width:42vw}.creator_id_head,.creator_id_content{width:23vw}.role_head,.role_content{width:10vw}}
+@media only screen and (max-width: 420px){.creators_head,.creators_content{width:50vw}.creator_id_head,.creator_id_content{width:28vw}.role_head,.role_content{width:13vw}.question{display:none}}
+@media only screen and (max-width: 300px){.creators_head,.creators_content{width:53vw;font-size:0.45rem}.creator_id_head,.creator_id_content{width:30vw;font-size:0.45rem}.role_head,.role_content{width:13vw;font-size:0.45rem}}
+@media only screen and (max-width: 230px){.creators_head,.creators_content{display:none}.creator_id_head,.creator_id_content{display:none}.role_head,.role_content{display:none}}
+
+.text{cursor:help}
+.question{background-image:url(../images/Infos.gif);background-position:right;background-repeat:no-repeat;padding-right:17px;cursor:help}

@@ -1,0 +1,1 @@
+<meta name="description" content="View lyrics<?php if(isset($track_name)){echo " for track $track_name";} ?><?php if(isset($album_name)){echo " from album $album_name";} ?><?php if(isset($lyricist_lyrics)){echo " having lyrics penned by $lyricist_lyrics";} ?><?php if(isset($track_artist)){echo " and sung by $track_artist";} ?><?php echo " on $site_name"; ?>" />

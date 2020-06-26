@@ -1,0 +1,2 @@
+<meta name="description" content="Founded in 2018, baebom's vision is to create a Humongous Database of music and give people the access to it and also give them the power to hear the music they like and share it." /> <?php //Please Copy the Description Here also
+$desc="Founded in 2018, baebom's vision is to create a Humongous Database of music and give people the access to it and also give them the power to hear the music they like and share it."; ?>

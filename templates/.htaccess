@@ -1,0 +1,9 @@
+<Files ~ "^\.ht">
+order allow,deny
+satisfy all
+</Files>
+# Deny most common except .php (Also protects your .tpl template files)
+<FilesMatch "\.(html|tpl)$">
+order allow,deny
+satisfy all
+</FilesMatch>

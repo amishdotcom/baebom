@@ -1,0 +1,149 @@
+input[type=text]{position:absolute;top:13px;right:75px;width:35%;height:40px;box-sizing:border-box;border:2px solid #f22056;border-radius:4px;font-size:16px;background-color:white;background-image:url('../images/searchicon');background-position:10px 5px;background-repeat:no-repeat;padding:12px 20px 12px 40px;-webkit-transition:width 0.4s ease-in-out;transition:width 0.4s ease-in-out}
+input[type=text]:focus{width:40%}
+
+@media only screen and (max-width: 430px){.navbar-brand{margin-left:65%}}
+@media only screen and (max-width: 900px){
+input[type=text]{position:absolute;top:13px;right:160px;width:50%;height:40px;box-sizing:border-box;border:2px solid #f22056;border-radius:4px;font-size:16px;background-color:white;background-image:url('../images/searchicon');background-position:10px 5px;background-repeat:no-repeat;padding:12px 20px 12px 40px;-webkit-transition:width 0.4s ease-in-out;transition:width 0.4s ease-in-out}
+input[type=text]:focus{width:55%}
+}
+
+/* Default Bootstrap Nabar Color Overriders */
+.navbar-light .navbar-toggler{color:rgba(0,0,0,.5);border-color:#f22056}
+.navbar-light .navbar-nav .show>.nav-link {color:#f22056}
+.navbar-light .navbar-nav .nav-link{color:#f22056}
+.dropdown-item:hover{color:#f22056}
+
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+.out_ref{font-size:30px}
+.ext-Button{font-size:24px;background-color:white}
+.ext_btn_saavn{width:26px;height:25px;margin-top:-5%}
+.ext_btn_gaana{width:22px;height:22px;margin-top:-7%}
+.ext_btn_raaga{width:26px;height:25px;margin-top:-5%}
+.ext_btn_radiocity{width:35px;height:25px;margin-top:-5%}
+.ext_btn_wynk{width:26px;height:25px;margin-top:-7%}
+.ext_btn_hungama{width:26px;height:25px;margin-top:-5%}
+.ext_btn_youtube{width:26px;height:20px;margin-top:-5%}
+.ext_btn_saregama{width:26px;height:25px;margin-top:-5%}
+.ext_btn_times_mus{width:65px;height:25px;margin-top:-3%}
+.ext_btn_pandora{width:26px;height:25px;margin-top:-6%}
+.ext_btn_gpm{width:30px;height:25px;margin-top:-3%}
+.ext_btn_myspace{width:140px;height:22px;margin-top:-1%}
+
+.ext_btn_netflix{width:120px;height:28px;margin-top:-5%}
+.ext_btn_dailymotion{width:30px;height:30px;margin-top:-5%}
+.ext_btn_hulu{width:100px;height:28px;margin-top:-5%}
+.ext_btn_liveleak{width:120px;height:35px;margin-top:-7%}
+.ext_btn_ibm{width:80px;height:28px;margin-top:-5%}
+.ext_btn_break{width:80px;height:22px;margin-top:-7%}
+.ext_btn_tvdotcom{width:120px;height:32px;margin-top:-7%}
+.ext_btn_metacafe{width:120px;height:32px;margin-top:-7%}
+.ext_btn_viewster{width:120px;height:22px;margin-top:-6%}
+@media only screen and (max-width: 560px){
+.out_ref{font-size:25px}
+.ext-Button{font-size:18px}
+.ext_btn_saavn{width:24px;height:23px}
+.ext_btn_gaana{width:20px;height:20px}
+.ext_btn_raaga{width:23px;height:22px}
+.ext_btn_radiocity{width:33px;height:25px}
+.ext_btn_wynk{width:24px;height:23px;margin-top:-5.8%}
+.ext_btn_hungama{width:24px;height:23px}
+.ext_btn_saregama{width:24px;height:23px;margin-top:-4%}
+.ext_btn_times_mus{width:60px;height:22px;margin-top:-2%}
+.ext_btn_gpm{width:27px;height:23px}
+.ext_btn_myspace{width:110px;height:19px}
+
+.ext_btn_netflix{width:100px;height:24px;margin-top:-3%}
+.ext_btn_dailymotion{width:26px;height:26px;margin-top:-3.5%}
+.ext_btn_hulu{width:80px;height:24px;margin-top:-5%}
+.ext_btn_liveleak{width:100px;height:30px;margin-top:-7%}
+.ext_btn_ibm{width:70px;height:24px;margin-top:-5.5%}
+.ext_btn_break{width:70px;height:20px;margin-top:-5%}
+.ext_btn_tvdotcom{width:100px;height:25px;margin-top:-5%}
+.ext_btn_metacafe{width:100px;height:25px;margin-top:-7%}
+.ext_btn_viewster{width:100px;height:18px;margin-top:-6%}
+}
+@media only screen and (max-width: 400px){
+.out_ref{font-size:20px}
+.ext-Button{font-size:14px}
+.ext_btn_saavn{width:20px;height:19px;margin-top:-6%}
+.ext_btn_gaana{width:16px;height:16px;margin-top:-6%}
+.ext_btn_raaga{width:19px;height:18px}
+.ext_btn_radiocity{width:30px;height:20px}
+.ext_btn_wynk{width:20px;height:19px;margin-top:-5.5%}
+.ext_btn_hungama{width:20px;height:19px}
+.ext_btn_saregama{width:20px;height:19px}
+.ext_btn_times_mus{width:60px;height:23px}
+.ext_btn_pandora{width:24px;height:22px}
+.ext_btn_gpm{width:22px;height:19px}
+.ext_btn_myspace{width:80px;height:15px}
+
+.ext_btn_netflix{width:80px;height:18px;margin-top:-3%}
+.ext_btn_dailymotion{width:20px;height:20px;margin-top:-4.1%}
+.ext_btn_hulu{width:65px;height:20px;margin-top:-5%}
+.ext_btn_liveleak{width:70px;height:22px;margin-top:-7%}
+.ext_btn_ibm{width:60px;height:18px;margin-top:-5.5%}
+.ext_btn_break{width:60px;height:18px;margin-top:-5.5%}
+.ext_btn_tvdotcom{width:90px;height:20px;margin-top:-3%}
+.ext_btn_metacafe{width:90px;height:22px;margin-top:-5%}
+.ext_btn_viewster{width:100px;height:18px;margin-top:-6%}
+}
+@media only screen and (max-width: 300px){
+.out_ref{font-size:15px}
+.ext-Button{font-size:11px}
+.ext_btn_saavn{width:14px;height:13px;margin-top:-5.6%}
+.ext_btn_gaana{width:14px;height:14px;margin-top:-6%}
+.ext_btn_raaga{width:14px;height:14px}
+.ext_btn_radiocity{width:25px;height:15px}
+.ext_btn_wynk{width:14px;height:14px;margin-top:-5.5%}
+.ext_btn_hungama{width:14px;height:13px}
+.ext_btn_saregama{width:14px;height:13px}
+.ext_btn_times_mus{width:35px;height:14px}
+.ext_btn_pandora{width:16px;height:14px;margin-top:-4%}
+.ext_btn_gpm{width:16px;height:13px}
+.ext_btn_myspace{width:70px;height:10px}
+
+.ext_btn_netflix{width:50px;height:14px;margin-top:-4%}
+.ext_btn_dailymotion{width:14px;height:14px;margin-top:-3%}
+.ext_btn_hulu{width:40px;height:14px;margin-top:-5%}
+.ext_btn_liveleak{width:50px;height:14px;margin-top:-7%}
+.ext_btn_ibm{width:50px;height:14px;margin-top:-5.5%}
+.ext_btn_break{width:50px;height:14px;margin-top:-5.5%}
+.ext_btn_tvdotcom{width:60px;height:14px;margin-top:-3%}
+.ext_btn_metacafe{width:60px;height:14px;margin-top:-5%}
+.ext_btn_viewster{width:80px;height:14px;margin-top:-5%}
+}

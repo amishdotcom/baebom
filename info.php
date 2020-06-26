@@ -1,0 +1,2 @@
+
+<script type="text/javascript" src="https://ninacoder.com/embed/embed.js?preload=true&amp;skin=ninacoder4&amp;bg_color=ffffff&amp;display_color=ffffff&amp;sub_font_color=4d4d4d&amp;processed_bar_color=f20707&amp;buffered_bar_color=e66565&amp;queue_top_color=ffffff&amp;queue_color=ffffff&amp;queue_song_color=ffffff&amp;queue_playing_color=b5b5b5&amp;playlist_songtitle_color=383131&amp;playlist_artistname_color=787777&amp;icon_color=403636&amp;thumb_color=ff0000&amp;process_bar_color=ab8282"></script>

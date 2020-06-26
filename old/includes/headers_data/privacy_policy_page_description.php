@@ -1,0 +1,2 @@
+<meta name="description" content="This policy describes the information we process on baebom such as Data Collection by us and given by the user." /> <?php //Please Copy the Description Here also
+$desc="This policy describes the information we process on baebom such as Data Collection by us and given by the user."; ?>

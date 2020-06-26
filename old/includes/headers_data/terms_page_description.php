@@ -1,0 +1,2 @@
+<meta name="description" content="Learn more about baebom's Terms of Service, which governs your use of baebom and the products, services, technologies, and software" /> <?php //Please Copy the Description Here also
+$desc="Learn more about baebom's Terms of Service, which governs your use of baebom and the products, services, technologies, and software"; ?>
